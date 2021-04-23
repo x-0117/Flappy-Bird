@@ -1,12 +1,17 @@
-This one is a very simplified implementation of the classic game "Flappy Bird" using
-python.
-> It is a completely CLI based game.
-> No extra libraries needed.
+An implementation of the classic game "Flappy Bird" using
+python. The pygame module has been used to implement the GUI.
 
-GAMEPLAY :
-> Press enter to fly higher.
-> On doing nothing, the bird descends automatically.
-> Avoid hitting the obstacles.
+Library required : pygame. Install it using :
+`pip install pygame`
 
-SCORE :
-> Directly proportional to the distance covered.
+- GAMEPLAY :
+  - Press any key to start.
+  - Press any key to fly higher. Bird descends automatically.
+  - Avoid hitting the obstacles.
+
+- SCORE :
+  - Directly proportional to the distance covered.
+
+- FEATURES :
+  - Night mode available, to reduce stress on the eyes.
+  - High score stored and displayed.
