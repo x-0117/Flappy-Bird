@@ -15,3 +15,6 @@ Library required : pygame. Install it using :
 - FEATURES :
   - Night mode available, to reduce stress on the eyes.
   - High score stored and displayed.
+
+- Please ensure `hiscore.txt` is in the same location as `Flappy Bird.py` else path to the file has to be changed in the code.
+- In order to reset the high score, just set the value inside `hiscore.txt` to 0.
